@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/first_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="First number"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:maxLength="5" />
+
+    <EditText
+        android:id="@+id/second_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Second number"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:maxLength="5" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calculate"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:layout_margin="8dp"/>
+</LinearLayout>
